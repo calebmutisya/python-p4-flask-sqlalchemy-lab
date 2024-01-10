@@ -25,8 +25,8 @@ def animal_by_id(id):
         <li>ID: {animal.id}</li>
         <li>Name: {animal.name}</li>
         <li>Species: {animal.species}</li>
-        <li>Zookeper: {animal.zookeeper.name}</li>
-        <li>Enclosure: {animal.enclosure.environment}</li>
+        <li>Zookeeper: {animal.zookeepers.name}</li>
+        <li>Enclosure: {animal.enclosures.environment}</li>
     </ul>
     '''
     response= make_response(response_body,200)
